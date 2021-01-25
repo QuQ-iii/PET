@@ -53,7 +53,7 @@ function setup() {
     fill(255,255,254);
     textSize(15);
     greeting = createElement("h3");
-    greeting.html(PET);
+    greeting.html(PET + "'s FEEDING TIME!");
     greeting.position(550, 110);
     
 });
